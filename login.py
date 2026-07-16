@@ -8,3 +8,9 @@ def login(username, password):
 
 def logout(username):
     print(f"User {username} has logged out successfully!")
+
+print(f"\nWelcome to Hospital Appointment Booking System\n")
+user = input("Enter username: ")
+password = input("Enter password: ")
+
+login(user, password)
