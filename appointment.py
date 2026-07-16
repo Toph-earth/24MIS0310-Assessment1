@@ -4,5 +4,6 @@ print("="*25)
 
 name = input("Enter patient name: ")
 age = input("Enter patient age: ")
-doctor = input("Enter name of doctor assigned: ")
+print("\nDoctors who have appointments today:\n1. Dr Tanya Williams\n2. Dr Arshad\n3. Dr Krishnan\n")
+doctor = input("Enter name of doctor: ")
 print(f"Patient {name} registered successfully")
